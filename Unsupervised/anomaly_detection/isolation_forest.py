@@ -1,3 +1,5 @@
+from shared import np
+
 class IsolationTree() :
     """
     An individual Isolation Tree (iTree) used inside an Isolation Forest.

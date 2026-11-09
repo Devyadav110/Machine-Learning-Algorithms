@@ -1,7 +1,5 @@
-import numpy as np
-from scipy.spatial.distance import cdist
+from shared import np
 
-# @title **MCD**
 class MCD() :
     def __init__(self, reg=0.0, h=0, type='MCD', max_iters=50) :
 

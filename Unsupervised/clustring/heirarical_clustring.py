@@ -1,3 +1,5 @@
+from shared import np, cdist
+
 class Hierarchical_Clustering() :
   """
   A custom implementation of Agglomerative Hierarchical Clustering.

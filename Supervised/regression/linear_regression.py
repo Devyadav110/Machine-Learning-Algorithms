@@ -1,3 +1,5 @@
+from shared import np
+
 ### CUSTOM REGRESSION CLASSES ###
 
 class custom_linear_regression() :

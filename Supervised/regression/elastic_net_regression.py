@@ -1,3 +1,5 @@
+from shared import np
+
 class custom_elastic_net_regression() :
     """Elastic Net Regression using Coordinate Descent."""
     def __init__(self, lambda_1=0.01, lambda_2=0.01, max_iter=1000):

@@ -1,3 +1,5 @@
+from shared import np
+
 class custom_lasso_regression() :
     """Lasso Regression using Coordinate Descent."""
     def __init__(self, alpha=0.1, max_iter=1000, fit_intercept=True):

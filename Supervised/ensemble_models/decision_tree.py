@@ -1,3 +1,5 @@
+from shared import np
+
 # @title **Helper function for decision tree**
 
 def variance_split(Y_left, Y_right):

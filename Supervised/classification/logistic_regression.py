@@ -1,4 +1,6 @@
 
+from shared import np
+
 class custom_logistic_regression() :
     def __init__(self, threshold=0.5, learning_rate=0.01, epochs=100):
         self.threshold = threshold

@@ -1,3 +1,5 @@
+from shared import np
+
 class custom_KNN_algorithm() :
     def __init__(self, K=2, p=2):
         self.K = K

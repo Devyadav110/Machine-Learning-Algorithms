@@ -1,3 +1,5 @@
+from shared import np
+
 class Custom_DBSCAN() :
   def __init__(self, epsilon, min_samples) :
     if epsilon <= 0:

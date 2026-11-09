@@ -1,3 +1,5 @@
+from shared import np
+
 class custom_ridge_regression() :
     """Ridge Regression supporting both Gradient Descent and Normal Equation."""
     def __init__(self, alpha=0.1, method='Gradient', fit_intercept=True, learning_rate=0.01, epochs=100):

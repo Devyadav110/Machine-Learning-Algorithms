@@ -1,3 +1,5 @@
+from shared import np
+
 class K_Mean() :
   def __init__(self, k, tol=0.001, max_iters=50, init='random') :
     self.k = k

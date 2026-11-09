@@ -1,3 +1,5 @@
+from shared import np, eigh, LinAlgError
+
 class Linear_Discriminant_Analysis:
     """
     Linear Discriminant Analysis (LDA) classifier and dimensionality reduction technique.

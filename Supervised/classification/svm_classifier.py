@@ -1,3 +1,5 @@
+from shared import np
+
 class Support_Vector_Classifier() :
   def __init__(self, C, tol = 0.1, passes = 2, kernel = "linear", max_passes = 100, verbose=False) :
     """

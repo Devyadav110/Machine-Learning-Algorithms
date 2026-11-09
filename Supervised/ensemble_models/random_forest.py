@@ -1,4 +1,7 @@
 
+from shared import np
+from Supervised.ensemble_models.decision_tree import Decision_Tree
+
 # @title **Random Forest**
 class Random_Forest_Classifier():
     def __init__(self, max_depth=3, min_samples_split=4, min_samples_leaf=2, min_impurity_decrease=0.0, B=10, max_features=1):

@@ -1,3 +1,6 @@
+from shared import np
+from Supervised.ensemble_models.decision_tree import Decision_Tree
+
 # @title **Gradient Boosting Implementation**
 
 class Gradient_Boosting_Regressor():

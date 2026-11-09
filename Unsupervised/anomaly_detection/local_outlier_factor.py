@@ -1,3 +1,5 @@
+from shared import np, cdist
+
 class Local_Outlier_Factor() :
     """
     A custom implementation of the Local Outlier Factor (LOF) algorithm
